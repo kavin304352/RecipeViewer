@@ -1,0 +1,107 @@
+---
+title: Homework 11 - mobile app interactivity
+---
+
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw11-template)
+
+* [LINK to FIGMA](https://www.figma.com/template)
+
+* [LINK to Snack Editor](https://snack.expo.dev/@jleonard99/homework-11-template)
+
+# Overview of (Name of application)
+
+[provide a brief description of your app.  You can use info from last week's pitch.]
+
+# Key features
+
+[expand on the key features that you described in the previous assignment.]
+
+# Individual Screen details
+
+The following section documents the individual screens of the application, the elements on each screen,
+and how the user is expected to interact with the screen.
+
+**NOTE: the following sections should be repeated for each of your screens, that is 2nd level screen name
+followed by a wireframe example and an as-built screen shot.
+
+## Main screen
+
+The main screen serves as the central node for this application.  All other screens return to this screen.
+
+### wireframe design
+
+Below is my wireframe image.  (include a description of features and elements.)
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone.
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+
+## Main screen
+
+(copy this structure of H2 and H3 for other screens in your application)
+
+### wireframe design
+
+Below is my wireframe image.  (include a description of features and elements.)
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone.
+
+![](./assets/sample-image.png){height=400 fig-align="center"}
+
+# Snack code for the application
+
+(this is a level 1 section, provide a snack that contains your currently working app which
+includes your screens and a navigation system.
+)
+
+```{=html}
+<div 
+data-snack-id="@jleonard99/homework-11-template"
+data-snack-platform="web"
+data-snack-preview="true" 
+data-snack-theme="light" 
+style="overflow:hidden;background:#fbfcfd;border:3px solid var(--color-border);border-radius:4px;height:500px;width:100%">
+</div>
+<script async src="https://snack.expo.dev/embed.js"></script>
+```
+
+
+# Reflection
+
+Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out?
+: (response here)
+
+How much time did you spend on this specific assignment (homework 11 - interactivity)?
+: (response here)
+
+What was the easiest part of this specific assignment (hw11)?
+: (response here)
+
+What is the hardest part of this specific assignment (hw11)?
+: (response here)
+
+Discuss your overall experience using Snack and developing this mobile app.
+: (response here)
+
+
+# README
+
+A quality README is an important part of EVERY project. Using the Quarto *include* command we're including a copy of your README in the project report so that a human can evaluate it.
+
+Make sure that you edit the README so that it's explanatory!  Note that you don't need a readme within the *reports* folder for this assignment. We're only
+focused on the root *README.md*.
+
+[Here is some info](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/) on how to write a good README!
+
+::: {style="background:lightgray; margin-left:20px; border-top: 3px solid black; border-bottom: 3px solid black; padding-left:20px; padding-right:20px"}
+{{< include ../README.md >}}
+:::

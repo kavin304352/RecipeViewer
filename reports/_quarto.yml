@@ -1,0 +1,12 @@
+
+author:
+  - name: Skippy McBoatface
+    email: skippy@mcboatface.com
+
+date: last-modified
+
+
+format:
+  html:
+    embed-resources: true
+    theme: cosmo
