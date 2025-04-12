@@ -2,19 +2,27 @@
 title: Homework 11 - mobile app interactivity
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw11-template)
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw10-kavin304352#)
 
-* [LINK to FIGMA](https://www.figma.com/template)
+* [LINK to FIGMA](https://www.figma.com/board/uymR70n45fkJs9W1hKu4V9/Storyboard-Recipe-Viewer?node-id=0-1&p=f&t=11CKMLH34rIcjANL-0)
 
-* [LINK to Snack Editor](https://snack.expo.dev/@jleonard99/homework-11-template)
+* [LINK to Snack Editor](https://snack.expo.dev/@kavin43/hw9_chicken-curry?platform=ios)
 
-# Overview of (Name of application)
 
-[provide a brief description of your app.  You can use info from last week's pitch.]
+# Overview of Recipe Viewer
+
+The recipe viewer is a simple minimalistic app for beginner cooks or busy individuals looking for a place to store their favorite recipes without all the fuss.
 
 # Key features
 
-[expand on the key features that you described in the previous assignment.]
+The key features include a clean and minimal home screen, a recipe detail viewer, smooth and quick navigation, and pre-loaded recipes. 
+
+- The home screen is meant to be simple while still including all of the important information. As shown by the pictures below, each recipe will an individual card that the user can access easily. In addition, it will have an add more button that will either pull up a new card where the user can load a recipe or pull up an option for the premium version of the app.
+
+- The navigation aims to be quick and self-explanatory. The navigational flow of the app is meant to be very simple unlike competitor apps. Each image is a card that will lead to more details about a recipe once clicked on. 
+
+- The recipe viewer will show up once a recipe is clicked. This will open a bigger image of the final product and include a “see more” button that will lead to ingredients and following steps. Each of these steps may have pictures depending on the difficulty of the task.
+
 
 # Individual Screen details
 
@@ -24,38 +32,123 @@ and how the user is expected to interact with the screen.
 **NOTE: the following sections should be repeated for each of your screens, that is 2nd level screen name
 followed by a wireframe example and an as-built screen shot.
 
-## Main screen
+## Home Screen
 
-The main screen serves as the central node for this application.  All other screens return to this screen.
+This is the home screen. This screen will display all of the available recipes along with a settings button and an "add more" option.
 
-### wireframe design
+Below is my wireframe image.
 
-Below is my wireframe image.  (include a description of features and elements.)
+![](./assets/MainScreen.png){height=400 fig-align="center"}
 
-![](./assets/sample-image.png){height=400 fig-align="center"}
 
 ### As-built screenshot
 
 Here is a screen shot of the image I created running on my phone.
 
-![](./assets/sample-image.png){height=400 fig-align="center"}
+![](./assets/MainSS.png){height=400 fig-align="center"}
 
+## Settings Screen
 
-## Main screen
+This is the settings screen. Currently, all it has is the referral code which can be used to unlock another slot for the recipe. Maybe might add more interactivity
 
-(copy this structure of H2 and H3 for other screens in your application)
-
-### wireframe design
-
-Below is my wireframe image.  (include a description of features and elements.)
-
-![](./assets/sample-image.png){height=400 fig-align="center"}
+![](./assets/Settings.png){height=400 fig-align="center"}
 
 ### As-built screenshot
 
 Here is a screen shot of the image I created running on my phone.
 
-![](./assets/sample-image.png){height=400 fig-align="center"}
+![](./assets/SettingsSS.png){height=400 fig-align="center"}
+
+## Recipe Screen (Chicken Curry)
+
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. The layout will be the same for each recipe, however the image and steps will be different.
+
+### wireframe design
+
+Below is my wireframe image.  
+
+![](./assets/Recipe2.png){height=400 fig-align="center"}
+
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone. Because it has a see more button, even though it is technically one screen, I included two screenshots to show the whole screen.
+
+<div style="display: flex; justify-content: center; gap: 24px;">
+  <img src="./assets/SS1.png" height="400">
+  <img src="./assets/SS2.png" height="400">
+</div>
+
+## Recipe Screen (Breakfast Burrito's)
+
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. The layout will be the same for each recipe, however the image and steps will be different.
+
+### wireframe design
+
+Below is my wireframe image.  
+
+![](./assets/Recipe3.png){height=400 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone. Because it has a see more button, even though it is technically one screen, I included two screenshots to show the whole screen.
+
+<div style="display: flex; justify-content: center; gap: 24px;">
+  <img src="./assets/BurritoSS.png" height="400">
+  <img src="./assets/RecipeB.png" height="400">
+</div>
+
+## Recipe Screen (Protein Pasta)
+
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. The layout will be the same for each recipe, however the image and steps will be different.
+
+### wireframe design
+
+Below is my wireframe image.  
+
+![](./assets/Recipe1.png){height=400 fig-align="center"}
+
+### As-built screenshot
+
+Here is a screen shot of the image I created running on my phone. Because it has a see more button, even though it is technically one screen, I included two screenshots to show the whole screen.
+
+<div style="display: flex; justify-content: center; gap: 24px;">
+  <img src="./assets/PastaSS.png" height="400">
+  <img src="./assets/RecipeP.png" height="400">
+</div>
+
+
+## Add More Screen (NEW)
+
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. This screen is revamped and adds interactivity. As shown on the settings screen, each user has a referral code. For the sake of testing we will use the user's referral code, but as mentioned in Homework 8, the referral code allows the user to unlock another recipe slot. When entered correctly, so in this case "HW11Password" it leads to a recipe creation menu. You can enter a recipe and it will be saved as a new recipe in the main screen. In addition, I have added alerts when the referral code has been used more than once.
+
+### wireframe design
+
+I did not have a wireframe image for this part of the app because I added it later. Additionally, it is very bare bones as it has no interactivity incorporated.
+
+### As-built screenshot
+
+Here are multiple screenshots of the image I created running on my phone. Since there is a lot of interactivity I have included multiple screenshots to showcase what can occur.
+- The first screenshot is the screen that pops up when you click on "Add More"
+
+- As stated previously, the referral code that will be used for testing is "Homework11Password". When that code is not entered, an alert pops up saying that the referral code was invalid.
+
+- Assuming you entered the correct code, the application will you take you to a screen where you can add a new recipe! In this screenshot, I have entered a new recipe for Orange Chicken.
+
+- After saving the recipe, I have a screenshot of the new home screen showcasing that there is a new card for the recipe I had just created.
+
+- Then I have a screenshot showing the screen that pops up once you click on the new card
+
+- The last screenshot is an alert that pops up if you had already clicked on the add more button
+
+<div style="display: flex; justify-content: center; gap: 24px;">
+  <img src="./assets/EnterReferral.png" height="400">
+  <img src="./assets/InvalidReferral.png" height="400">
+  <img src="./assets/AddRecipe.png" height="400">
+  <img src="./assets/NewCustomRecipe.png" height="400">
+  <img src="./assets/NewHome.png" height="400">
+  <img src="./assets/CodeUsed.png" height="400">
+</div>
 
 # Snack code for the application
 
@@ -64,13 +157,7 @@ includes your screens and a navigation system.
 )
 
 ```{=html}
-<div 
-data-snack-id="@jleonard99/homework-11-template"
-data-snack-platform="web"
-data-snack-preview="true" 
-data-snack-theme="light" 
-style="overflow:hidden;background:#fbfcfd;border:3px solid var(--color-border);border-radius:4px;height:500px;width:100%">
-</div>
+<div data-snack-id="@kavin43/hw11" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.dev/embed.js"></script>
 ```
 
@@ -78,19 +165,19 @@ style="overflow:hidden;background:#fbfcfd;border:3px solid var(--color-border);b
 # Reflection
 
 Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out?
-: (response here)
+: Personally, I found the easiest hooks in the assignment were the alerts I add to this assignment. At first I had no clue how they worked, and were even confused why they weren't showing up(I was viewing the app in the web). However, with a little debugging and googling it was pretty easy to find out my mistakes and correctly implement the alerts. The hardest hooks I dealt with was kind of the overall implementation of the interactivity. I definitely felt like it was not feasible me to make a fully fleshed version of this app considering I have the idea of referral codes. That would involve fetching data from different users which means I would need to keep track of so many more things such as user ID's and more. This seemed very hard so I chose to use the user's referral code for testing even if that would not be optimal if this was the complete app. I also tried to find a way to implement adding pictures as the user as the new recipe slot that appeared has no picture but I found it rather challenging. Lastly, for some reason even if you don't save the first custom recipe, it gives the user an alert that you have saved the recipe and I was unable to fix that error. All of these are hooks I would hopefully be able to fix/implement if this was a fully fleshed out product.
 
 How much time did you spend on this specific assignment (homework 11 - interactivity)?
-: (response here)
+: I spent around 5 hours on this assignment however a majority of the time was spent googling and learning how to implement the interactive features that I had hoped for. It probably only took 1 to 2 hours of actual coding.
 
 What was the easiest part of this specific assignment (hw11)?
-: (response here)
+: As stated before I thought the easiest part was implementing the alerts. Got a couple of errors, but it was all in all easy to understand and then code.
 
 What is the hardest part of this specific assignment (hw11)?
-: (response here)
+: The hardest part was trying to implement my whole vision for the app. I spent a lot of time looking at how to extract data from different users and after a lot of trial and error, I realized it just wasn't very possible in the space we were given. Considering I only had one snack it was near impossible to have two different versions of the app with two users and have them communicate with each other via a simple referral code. This made me switch it a little bit and use the users own referral code to implement interactivity. In a real world setting, it would make more sense that you would use someone else' referral code to get a free recipe slot.
 
 Discuss your overall experience using Snack and developing this mobile app.
-: (response here)
+: I thought Snack was suprisingly good. At first I was a bit hesitant because it did seem limited. Although, especially in this assignment, I did run into the limits of using Snack, I still found it relatively user friendly especially with the app display constantly updating right next to the code.
 
 
 # README
