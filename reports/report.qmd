@@ -2,11 +2,11 @@
 title: Homework 11 - mobile app interactivity
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw10-kavin304352#)
+* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw11-kavin304352)
 
 * [LINK to FIGMA](https://www.figma.com/board/uymR70n45fkJs9W1hKu4V9/Storyboard-Recipe-Viewer?node-id=0-1&p=f&t=11CKMLH34rIcjANL-0)
 
-* [LINK to Snack Editor](https://snack.expo.dev/@kavin43/hw9_chicken-curry?platform=ios)
+* [LINK to Snack Editor](https://snack.expo.dev/@kavin43/hw11)
 
 
 # Overview of Recipe Viewer
