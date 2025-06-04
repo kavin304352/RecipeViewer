@@ -1,8 +1,8 @@
 ---
-title: Homework 11 - mobile app interactivity
+title: Mobile App - Recipe Viewer
 ---
 
-* [LINK to GITHUB](https://github.com/cmsc-vcu/cmsc427-sp2025-hw11-kavin304352)
+* [LINK to GITHUB](https://github.com/kavin304352/RecipeViewer)
 
 * [LINK to FIGMA](https://www.figma.com/board/uymR70n45fkJs9W1hKu4V9/Storyboard-Recipe-Viewer?node-id=0-1&p=f&t=11CKMLH34rIcjANL-0)
 
@@ -29,8 +29,7 @@ The key features include a clean and minimal home screen, a recipe detail viewer
 The following section documents the individual screens of the application, the elements on each screen,
 and how the user is expected to interact with the screen.
 
-**NOTE: the following sections should be repeated for each of your screens, that is 2nd level screen name
-followed by a wireframe example and an as-built screen shot.
+**NOTE: the following sections should are repeated for each of the screens, with a wireframe example and an as-built screen shot.
 
 ## Home Screen
 
@@ -49,7 +48,7 @@ Here is a screen shot of the image I created running on my phone.
 
 ## Settings Screen
 
-This is the settings screen. Currently, all it has is the referral code which can be used to unlock another slot for the recipe. Maybe might add more interactivity
+This is the settings screen. Currently, it has a code which can be used to unlock another slot for the recipe.
 
 ![](./assets/Settings.png){height=400 fig-align="center"}
 
@@ -81,7 +80,7 @@ Here is a screen shot of the image I created running on my phone. Because it has
 
 ## Recipe Screen (Breakfast Burrito's)
 
-The recipe screen is the screen that shows up after clicking on the recipe from the main screen. The layout will be the same for each recipe, however the image and steps will be different.
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. 
 
 ### wireframe design
 
@@ -91,7 +90,7 @@ Below is my wireframe image.
 
 ### As-built screenshot
 
-Here is a screen shot of the image I created running on my phone. Because it has a see more button, even though it is technically one screen, I included two screenshots to show the whole screen.
+Here is a screen shot of the image I created running on my phone. 
 
 <div style="display: flex; justify-content: center; gap: 24px;">
   <img src="./assets/BurritoSS.png" height="400">
@@ -100,7 +99,7 @@ Here is a screen shot of the image I created running on my phone. Because it has
 
 ## Recipe Screen (Protein Pasta)
 
-The recipe screen is the screen that shows up after clicking on the recipe from the main screen. The layout will be the same for each recipe, however the image and steps will be different.
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen.
 
 ### wireframe design
 
@@ -110,7 +109,7 @@ Below is my wireframe image.
 
 ### As-built screenshot
 
-Here is a screen shot of the image I created running on my phone. Because it has a see more button, even though it is technically one screen, I included two screenshots to show the whole screen.
+Here is a screen shot of the image I created running on my phone. 
 
 <div style="display: flex; justify-content: center; gap: 24px;">
   <img src="./assets/PastaSS.png" height="400">
@@ -120,7 +119,7 @@ Here is a screen shot of the image I created running on my phone. Because it has
 
 ## Add More Screen (NEW)
 
-The recipe screen is the screen that shows up after clicking on the recipe from the main screen. This screen is revamped and adds interactivity. As shown on the settings screen, each user has a referral code. For the sake of testing we will use the user's referral code, but as mentioned in Homework 8, the referral code allows the user to unlock another recipe slot. When entered correctly, so in this case "HW11Password" it leads to a recipe creation menu. You can enter a recipe and it will be saved as a new recipe in the main screen. In addition, I have added alerts when the referral code has been used more than once.
+The recipe screen is the screen that shows up after clicking on the recipe from the main screen. This screen is revamped and adds interactivity. As shown on the settings screen, each user has a referral code. For the sake of testing we will use the user's referral code, but the referral code allows the user to unlock another recipe slot. When entered correctly, so in this case "AddRecipe" it leads to a recipe creation menu. You can enter a recipe and it will be saved as a new recipe in the main screen. In addition, I have added alerts when the referral code has been used more than once.
 
 ### wireframe design
 
@@ -131,7 +130,7 @@ I did not have a wireframe image for this part of the app because I added it lat
 Here are multiple screenshots of the image I created running on my phone. Since there is a lot of interactivity I have included multiple screenshots to showcase what can occur.
 - The first screenshot is the screen that pops up when you click on "Add More"
 
-- As stated previously, the referral code that will be used for testing is "Homework11Password". When that code is not entered, an alert pops up saying that the referral code was invalid.
+- As stated previously, the referral code that will be used for testing is "AddRecipe". When that code is not entered, an alert pops up saying that the referral code was invalid.
 
 - Assuming you entered the correct code, the application will you take you to a screen where you can add a new recipe! In this screenshot, I have entered a new recipe for Orange Chicken.
 
@@ -152,40 +151,19 @@ Here are multiple screenshots of the image I created running on my phone. Since 
 
 # Snack code for the application
 
-(this is a level 1 section, provide a snack that contains your currently working app which
-includes your screens and a navigation system.
-)
+
 
 ```{=html}
 <div data-snack-id="@kavin43/hw11" data-snack-platform="ios" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#fbfcfd;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
 <script async src="https://snack.expo.dev/embed.js"></script>
 ```
 
-
 # Reflection
-
-Discuss your experience coding hooks in this assignment.  Which hooks were hardest?  Which easiest?  What helped you figure them out?
-: Personally, I found the easiest hooks in the assignment were the alerts I add to this assignment. At first I had no clue how they worked, and were even confused why they weren't showing up(I was viewing the app in the web). However, with a little debugging and googling it was pretty easy to find out my mistakes and correctly implement the alerts. The hardest hooks I dealt with was kind of the overall implementation of the interactivity. I definitely felt like it was not feasible me to make a fully fleshed version of this app considering I have the idea of referral codes. That would involve fetching data from different users which means I would need to keep track of so many more things such as user ID's and more. This seemed very hard so I chose to use the user's referral code for testing even if that would not be optimal if this was the complete app. I also tried to find a way to implement adding pictures as the user as the new recipe slot that appeared has no picture but I found it rather challenging. Lastly, for some reason even if you don't save the first custom recipe, it gives the user an alert that you have saved the recipe and I was unable to fix that error. All of these are hooks I would hopefully be able to fix/implement if this was a fully fleshed out product.
-
-How much time did you spend on this specific assignment (homework 11 - interactivity)?
-: I spent around 5 hours on this assignment however a majority of the time was spent googling and learning how to implement the interactive features that I had hoped for. It probably only took 1 to 2 hours of actual coding.
-
-What was the easiest part of this specific assignment (hw11)?
-: As stated before I thought the easiest part was implementing the alerts. Got a couple of errors, but it was all in all easy to understand and then code.
-
-What is the hardest part of this specific assignment (hw11)?
-: The hardest part was trying to implement my whole vision for the app. I spent a lot of time looking at how to extract data from different users and after a lot of trial and error, I realized it just wasn't very possible in the space we were given. Considering I only had one snack it was near impossible to have two different versions of the app with two users and have them communicate with each other via a simple referral code. This made me switch it a little bit and use the users own referral code to implement interactivity. In a real world setting, it would make more sense that you would use someone else' referral code to get a free recipe slot.
-
-Discuss your overall experience using Snack and developing this mobile app.
-: I thought Snack was suprisingly good. At first I was a bit hesitant because it did seem limited. Although, especially in this assignment, I did run into the limits of using Snack, I still found it relatively user friendly especially with the app display constantly updating right next to the code.
-
+Overall, building this app was a valuable learning experience that strengthened my front end development skills. While the app itself was intentionally simple, the process of designing multiple screens, implementing the correct navigational model, and presenting recipes in a user-friendly format gave me practical insight into how front-end components come together in a real-world application. I also encountered many issues that deterred my progress. When a user enters a valid referral code and proceeds to the next screen but decides not to add a recipe, the backend still registers the code as used. As a result, the system incorrectly prevents the user from adding a recipe later, even though no new recipe was submitted. This highlighted the importance of managing state transitions and backend logic more carefully, especially when user decisions can affect application permissions or access. Through this project, I gained hands-on experience working with layout structures, responsive design elements, and user interaction flows. Overall, this project has laid a solid foundation that will allow me to take on more advanced front end development tasks in the future.
 
 # README
 
-A quality README is an important part of EVERY project. Using the Quarto *include* command we're including a copy of your README in the project report so that a human can evaluate it.
 
-Make sure that you edit the README so that it's explanatory!  Note that you don't need a readme within the *reports* folder for this assignment. We're only
-focused on the root *README.md*.
 
 [Here is some info](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/) on how to write a good README!
 
